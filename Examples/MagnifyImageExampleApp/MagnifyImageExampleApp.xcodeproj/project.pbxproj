@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		542E254E2DB39F5200D7FDFC /* MagnifyImageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 542E254D2DB39F5200D7FDFC /* MagnifyImageKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		542E253B2DB3991900D7FDFC /* MagnifyImageExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagnifyImageExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542E254E2DB39F5200D7FDFC /* MagnifyImageKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = MagnifyImageExampleApp;
 			packageProductDependencies = (
+				542E254D2DB39F5200D7FDFC /* MagnifyImageKit */,
 			);
 			productName = MagnifyImageExampleApp;
 			productReference = 542E253B2DB3991900D7FDFC /* MagnifyImageExampleApp.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 542E25322DB3991900D7FDFC;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				542E254C2DB39F5200D7FDFC /* XCLocalSwiftPackageReference "../../../MagnifyImageKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 542E253C2DB3991900D7FDFC /* Products */;
 			projectDirPath = "";
@@ -322,6 +331,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		542E254C2DB39F5200D7FDFC /* XCLocalSwiftPackageReference "../../../MagnifyImageKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../../MagnifyImageKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		542E254D2DB39F5200D7FDFC /* MagnifyImageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MagnifyImageKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 542E25332DB3991900D7FDFC /* Project object */;
 }

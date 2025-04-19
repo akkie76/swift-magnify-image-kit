@@ -6,19 +6,19 @@
 //
 
 import SwiftUI
+import MagnifyImageKit
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+  var body: some View {
+    VStack {
+      if let image = UIImage(named: "CherryBlossoms") {
+        MagnifyImageView(image: image)
+          .ignoresSafeArea()
+      }
     }
+  }
 }
 
 #Preview {
-    ContentView()
+  ContentView()
 }
